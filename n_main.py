@@ -26,7 +26,7 @@ def get_sleepy_user(my_peer_id):
   c.close()
   conn.close()
 
-  if(peer_id == ""): peer_id = "no_peer"
+  if(peer_id == ""): peer_id = "1"
 
   return peer_id
 
